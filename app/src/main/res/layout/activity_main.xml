@@ -7,48 +7,145 @@
     android:textAlignment="center"
     tools:context=".MainActivity">
 
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/Barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        app:barrierDirection="top" />
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="?attr/actionBarSize"
         android:background="#453091"
-        android:contextClickable="true"
         android:gravity="center"
         android:minHeight="?attr/actionBarSize"
-        android:text="@string/football_score"
-        android:textAlignment="viewEnd"
         android:theme="@style/Theme.Material3.DynamicColors.Dark"
-        android:visibility="visible"
-        app:layout_constraintTop_toTopOf="parent"
         app:subtitleTextAppearance="@style/TextAppearance.AppCompat.Body1"
         app:subtitleTextColor="#F44336"
         tools:layout_editor_absoluteX="-16dp"
         tools:visibility="visible" />
 
+
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.449"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.325"
-        tools:ignore="VisualLintOverlap" />
+        android:text="@string/team_1"
+        app:autoSizeTextType="none"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/team_2"
+        app:autoSizeTextType="none"
+        tools:layout_editor_absoluteX="259dp"
+        tools:layout_editor_absoluteY="125dp" />
 
     <TextView
         android:id="@+id/toolbar_title"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:gravity="top"
-        android:layout_marginTop="20dp"
         android:text="@string/football_score"
         android:textAlignment="center"
         android:textColor="#039BE5"
         android:textSize="20sp"
         android:textStyle="bold"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Touchdown"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Field Goal"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Two Point Conversion"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="-170dp" />
+        tools:layout_editor_absoluteY="450dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TouchDown"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Field Goal"
+        tools:layout_editor_absoluteX="259dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Touch Point Conversion"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Safety"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="525dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Safety"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="530dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="620dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="186dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

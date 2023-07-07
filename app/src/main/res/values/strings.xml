@@ -2,4 +2,6 @@
     <string name="app_name">footballscore</string>
     <string name="text">Text</string>
     <string name="football_score">Football Score</string>
+    <string name="team_1">Team 1</string>
+    <string name="team_2">Team 2</string>
 </resources>
