@@ -4,4 +4,13 @@
     <string name="football_score">Football Score</string>
     <string name="team_1">Team 1</string>
     <string name="team_2">Team 2</string>
+    <string name="touchdownTeam1">Touchdown</string>
+    <string name="touchdownteam2">TouchDown</string>
+    <string name="field_goalteam1">Field Goal</string>
+    <string name="two_point_conversionteam1">Two Point Conversion</string>
+    <string name="field_goalteam2">Field Goal</string>
+    <string name="touch_point_conversionteam2">Touch Point Conversion</string>
+    <string name="safetyteam1">Safety</string>
+    <string name="safetyteam2">Safety</string>
+    <string name="resetbothteam">Reset</string>
 </resources>
