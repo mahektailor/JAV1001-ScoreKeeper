@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">footballscore</string>
+    <string name="text">Text</string>
+    <string name="football_score">Football Score</string>
 </resources>

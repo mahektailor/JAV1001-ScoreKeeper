@@ -4,7 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:textAlignment="center"
     tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#453091"
+        android:contextClickable="true"
+        android:gravity="center"
+        android:minHeight="?attr/actionBarSize"
+        android:text="@string/football_score"
+        android:textAlignment="viewEnd"
+        android:theme="@style/Theme.Material3.DynamicColors.Dark"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="parent"
+        app:subtitleTextAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:subtitleTextColor="#F44336"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:visibility="visible" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -12,7 +31,24 @@
         android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.449"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325"
+        tools:ignore="VisualLintOverlap" />
+
+    <TextView
+        android:id="@+id/toolbar_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:layout_marginTop="20dp"
+        android:text="@string/football_score"
+        android:textAlignment="center"
+        android:textColor="#039BE5"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-170dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
