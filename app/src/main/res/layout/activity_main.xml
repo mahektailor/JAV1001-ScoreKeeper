@@ -10,7 +10,7 @@
     tools:targetApi="@string/app_name">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar3"
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
@@ -18,7 +18,7 @@
         android:theme="?attr/actionBarTheme" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/Headingoftoolbar"
         android:layout_width="wrap_content"
 
         android:layout_height="wrap_content"
@@ -27,46 +27,14 @@
         android:text="@string/football_score"
         android:textColor="#F4F4F4"
         android:textColorLink="#FFFFFF"
-        android:textSize="24sp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/SafetyTeam2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="84dp"
-        android:layout_marginBottom="232dp"
-        android:text="@string/safetyteam2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <Button
-        android:id="@+id/SafetyTeam1"
-        android:layout_width="94dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginBottom="232dp"
-        android:text="@string/safetyteam1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/SafetyTeam2"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/fieldGoalConversionTeam1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginBottom="456dp"
-        android:text="@string/field_goalteam1"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button9"
+        android:id="@+id/Reset"
         android:layout_width="88dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"
@@ -77,12 +45,42 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Extrapointteam2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="288dp"
+        android:text="@string/extra_point"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/twopointConversationteam2"
+        android:layout_width="211dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="216dp"
+        android:text="@string/touch_point_conversionteam2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/fieldGoalTeam2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="364dp"
+        android:text="@string/field_goalteam2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/touchdownteam1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
-        android:layout_marginBottom="528dp"
-        android:text="@string/touchdownTeam1"
+        android:layout_marginBottom="436dp"
+        android:text="touchdown"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button4"
         app:layout_constraintHorizontal_bias="0.0"
@@ -92,39 +90,28 @@
         android:id="@+id/button3"
         android:layout_width="185dp"
         android:layout_height="55dp"
-        android:layout_marginBottom="309dp"
+        android:layout_marginBottom="216dp"
         android:text="@string/two_point_conversionteam1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/twopointConversationteam2"
-        android:layout_width="211dp"
-        android:layout_height="59dp"
-        android:layout_marginEnd="7dp"
-        android:layout_marginBottom="309dp"
-        android:text="@string/touch_point_conversionteam2"
+        android:id="@+id/fieldGoalTeam1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="364dp"
+        android:text="@string/field_goal"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="TextSizeCheck" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/touchdownteam2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="48dp"
-        android:layout_marginBottom="456dp"
-        android:text="@string/field_goalteam2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="48dp"
-        android:layout_marginBottom="528dp"
-        android:text="@string/touchdownteam2"
+        android:layout_marginBottom="436dp"
+        android:text="touchdown"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -132,19 +119,31 @@
         android:id="@+id/extrapointteam1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginBottom="381dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="288dp"
         android:text="Extra Point"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/Extrapointteam2"
+        android:id="@+id/SafetyTeam1"
+        android:layout_width="94dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="140dp"
+        android:text="@string/safetyteam1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/SafetyTeam2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/SafetyTeam2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="51dp"
-        android:layout_marginBottom="381dp"
-        android:text="Expra Point"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="140dp"
+        android:text="@string/safetyteam2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -168,25 +167,26 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/editTextNumber3"
+
+    <TextView
+        android:id="@+id/team1_score"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="71dp"
-        android:layout_marginTop="186dp"
-        android:ems="2"
-        android:inputType="number"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="205dp"
+        android:text="0.0"
+        android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/editTextNumber4"
+    <TextView
+        android:id="@+id/team2_score"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="184dp"
-        android:layout_marginEnd="92dp"
-        android:ems="02"
-        android:inputType="number"
+        android:layout_marginTop="205dp"
+        android:layout_marginEnd="84dp"
+        android:text="0.0"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

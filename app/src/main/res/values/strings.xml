@@ -13,4 +13,6 @@
     <string name="safetyteam1">Safety</string>
     <string name="safetyteam2">Safety</string>
     <string name="resetbothteam">Reset</string>
+    <string name="field_goal">Field goal</string>
+    <string name="extra_point">Extra Point</string>
 </resources>
